@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log-In</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+ <div id="page1" class="page">
+  <h1>LOG-IN</h1>
+  <br><br><br>
+  <input type="email" class="input" id="email" placeholder="E-Mail">
+ <br><br>
+  <input type="password" class="input"  id="password" placeholder="Password">
+ <br><br>
+  <button onclick="signin()">Sign-In</button>
+  <br><br>
+  <p>don't have an account?</p>
+  <button onclick="register()">Register</button>
+
+
+</div>
+ <div id="page2" class="page">
+  <h1>Register</h1>
+  <br><br><br>
+  <input type="email"  class="input" id="email2" placeholder="E-Mail">
+ <br><br>
+  <input type="password"  class="input" id="password2" placeholder="Password">
+ <br><br>
+  <button onclick="register()">Register</button>
+ </div>
+
+
+ <div id="page3" class="page">
+  <h2 class="global">Global Chat</h2>
+  <div id="messages" class="area"></div>
+  <button onclick="logout()" class="logout">Log-Out</button>
+  <input type="text" id="inp" class="inp" placeholder="Type your Message here...">
+  <button class="btn" id="btn" onclick="send()">Send</button>
+ </div>
+
+
+  <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>

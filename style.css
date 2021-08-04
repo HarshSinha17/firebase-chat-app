@@ -1,0 +1,82 @@
+.page{
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+#page2{
+  display: none;
+}
+#page3{
+  display: none;
+  background-color: rgb(4, 4, 71);
+  color: white;
+}
+#page1{
+  display: block;
+}
+.inp{
+  width: 85%;
+  bottom: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 50px;
+  border: none;
+  font-size: 20px;
+  outline: none;
+}
+.logout{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: white;
+  color: black;
+}
+body{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.input{
+  height: 40px;
+  width: 80%;
+  max-width: 300px;
+}
+button{
+  height: 40px;
+  width: 160px;
+  background-color: rgb(7, 7, 87);
+  color: white;
+}
+.btn{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 15%;
+  height: 52px;
+  background-color: red;
+  border: none;
+}
+.area{
+  position: absolute;
+  width: 100%;
+  background-color: green;
+  height: 80%;
+  bottom: 52px;
+}
+.newmessage{
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 25px;
+  width: 200px;
+}
+@media only screen and(max-width: 500px){
+  .h2{
+    display: none;
+  }
+}
